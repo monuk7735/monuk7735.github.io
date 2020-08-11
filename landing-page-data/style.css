@@ -1,0 +1,68 @@
+body {
+    margin: -5px 5px 100px 0px;
+    padding: 0px;
+}
+
+div {
+    /* background-color: rgba(0, 0, 0, 0); */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#background {
+    display:block;
+    position: fixed;
+    z-index: -2;
+}
+
+.github-data {
+    display: block;
+    margin: 5px auto;
+    /* border-color: black; */
+    /* width: 400px; */
+    /* height: 200px; */
+    /* border-style: solid; */
+    /* padding: 0; */
+    /* background-color: black; */
+    /* border-radius: 7px; */
+}
+
+.social-button {
+    width: 30px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.social-button:hover {
+    margin: 5px;
+    width: 40px;
+}
+
+.social-button-div-div {
+    position: fixed;
+    bottom: 0px;
+    height: 120px;
+    background-color: white;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.5) ;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-button-div {
+    position: absolute;
+/*    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.5) ;*/
+/*    display: inline-block;*/
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.heading {
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 900;
+}
