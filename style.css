@@ -1,25 +1,42 @@
 body {
-    margin: 0px;
+    margin: -5px 5px 100px 0px;
+    padding: 0px;
 }
 
 div {
+    /* background-color: rgba(0, 0, 0, 0); */
     margin-left: auto;
     margin-right: auto;
 }
 
-canvas {
-    display: block;
+#background {
+    display:block;
+    position: fixed;
+    z-index: -2;
 }
 
+#background-text {
+    position: fixed;
+    width: 100%;
+    font-size: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    text-align: center;
+
+    z-index: -1;
+    color: black;
+}
 
 .github-data {
     display: block;
     margin: 5px auto;
-    border-color: black;
-    border-style: solid;
-    /* padding: 2px 2px 1.4px 2px; */
+    /* border-color: black; */
+    /* width: 400px; */
+    /* height: 200px; */
+    /* border-style: solid; */
+    /* padding: 0; */
     /* background-color: black; */
-    border-radius: 7px;
+    /* border-radius: 7px; */
 }
 
 .social-button {
