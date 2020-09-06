@@ -1,8 +1,10 @@
 @font-face {
-  font-family: 'Product Sans';
+  font-family: "Product Sans";
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  src: local("Open Sans"), local("OpenSans"),
+    url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+      format("woff2");
 }
 
 body {
@@ -11,7 +13,6 @@ body {
   height: 100%;
   background-color: black;
 }
-
 
 #background {
   display: block;
@@ -33,52 +34,74 @@ body {
   /* border-radius: 7px; */
 }
 
-.header{
+.header {
   width: 90%;
   display: inline-block;
-  height: 70px;
+  height: 100px;
   padding: 20px 5%;
 }
 
-.header .header-item{
+.header .header-item {
   display: block;
   float: left;
-  width: 25%;
-  height: 30px;
+  width: 20%;
+  height: 100px;
+  padding-top: 15px;
+  overflow: hidden;
   text-align: center;
 }
 
-.header .header-item a::after, .header .header-item a::before{
+
+#my-img{
+  padding: 0;
+  height: 100px;
+}
+
+.header .header-item a::after,
+.header .header-item a::before {
   content: "";
   background-color: rgba(255, 255, 255, 0);
   display: block;
   width: 100%;
   margin: 10px 5px;
   transition-duration: 500ms;
-  height: 2px;
+  height: 1px;
 }
 
-.header .header-item a:hover::after, .header .header-item a:hover::before{
+.header .header-item a:hover::after,
+.header .header-item a:hover::before {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.header .header-item a, .header .header-item a:visited {
-  font-size: 25px;
+.header .header-item a,
+.header .header-item a:visited {
+  font-size: 24px;
   text-align: center;
   color: white;
+  height: 100px;
   text-decoration: none;
-  font-family: 'Product Sans', Courier;
+  font-family: "Product Sans", Courier;
   font-weight: bolder;
   transition-duration: 500ms;
 }
 
-#main-body{
+.header .header-item img {
+  font-size: 25px;
+  height: 100px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: "Product Sans", Courier;
+  font-weight: bolder;
+  transition-duration: 500ms;
+}
+
+#main-body {
   background-color: red;
   display: block;
   width: 100%;
   margin-bottom: 120px;
 }
-
 
 .social-button {
   width: 30px;
